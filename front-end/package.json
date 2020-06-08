@@ -1,0 +1,30 @@
+{
+  "name": "front-end",
+  "version": "4.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.11.0",
+    "qs": "^6.9.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.5",
+    "vue-cropperjs": "^3.0.0",
+    "vue-i18n": "^8.10.0",
+    "vue-meta": "^2.3.1",
+    "vue-router": "^3.0.3",
+    "xterm": "^4.2.0",
+    "xterm-addon-attach": "^0.3.0",
+    "xterm-addon-fit": "^0.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
